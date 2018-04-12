@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -325,6 +325,11 @@
 <wire x1="-10" y1="-2.8" x2="10" y2="-2.8" width="0.127" layer="21"/>
 <wire x1="10" y1="-2.8" x2="10" y2="-2.5" width="0.127" layer="21"/>
 <text x="-12.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+<package name="XH_2POS_WIRE_PKG">
+<pad name="P$1" x="-1.27" y="0" drill="1" shape="square"/>
+<pad name="P$2" x="1.27" y="0" drill="1" shape="square"/>
+<text x="-2.54" y="2.54" size="1.016" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1064,6 +1069,22 @@
 <connect gate="G$1" pin="P$5" pad="P$5"/>
 <connect gate="G$1" pin="P$6" pad="P$6"/>
 <connect gate="G$1" pin="P$7" pad="P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XH_2POS_WIRE_DEV" prefix="J">
+<gates>
+<gate name="G$1" symbol="XH_2POS_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XH_2POS_WIRE_PKG">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

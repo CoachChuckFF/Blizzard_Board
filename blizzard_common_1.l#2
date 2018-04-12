@@ -324,6 +324,7 @@
 <wire x1="-10" y1="-2.5" x2="-10" y2="-2.8" width="0.127" layer="21"/>
 <wire x1="-10" y1="-2.8" x2="10" y2="-2.8" width="0.127" layer="21"/>
 <wire x1="10" y1="-2.8" x2="10" y2="-2.5" width="0.127" layer="21"/>
+<text x="-12.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
